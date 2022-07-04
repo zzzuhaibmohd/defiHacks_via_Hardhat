@@ -13,5 +13,6 @@ _Note:_ The blockNumber of the hardhat config is set a block where in one of the
 
 Special Mentions
 
-https://twitter.com/zuhaib44
+https://twitter.com/immunefi
+
 https://twitter.com/AshiqAmien
