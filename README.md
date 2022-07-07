@@ -21,6 +21,12 @@ As a result, this function can be called by anyone.
 
 _Reference_ - https://twitter.com/BlockSecTeam/status/1543928537882714112
 
+**4. FlippazOne Missing Access Control**
+
+The _ownerWithdrawAllTo()_ function is missing the _onlyOwner_ modifier check. Additionally, the check of whether the auction is over is also missing. As a result, any user can call the function and drain all the funds. Be sure to check out the tweet linked below to understand more about what happend - when one of the user sent the transaction to the public mempool.
+
+_Reference_ - https://twitter.com/bertcmiller/status/1544496577338826752
+
 Special Mentions
 
 https://twitter.com/immunefi
