@@ -33,7 +33,7 @@ The attacker sent two transactions to each of the affected contracts: the first 
 
 _Reference_ - https://blog.openzeppelin.com/on-the-parity-wallet-multisig-hack-405a8c12e8f7/
 
-**5. Sandbox LAND Migration Hack**
+**6. Sandbox LAND Migration Hack**
 
 the `_burn` function that was set to be called was set in a public state. Even though there is a `require(from == owner, “not owner”)` in the function, the from in the function can still be modified by any user. This could results in anyone burning other players NFTs at will.
 
